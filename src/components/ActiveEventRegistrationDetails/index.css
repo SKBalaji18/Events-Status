@@ -1,0 +1,83 @@
+.active-event-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  width: 40%;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  width: 100%;
+}
+
+.yet-to-register {
+  width: 80%;
+  align-self: center;
+  max-width: 550px;
+}
+
+.register-desc {
+  color: #475569;
+  font-size: 20px;
+  text-align: center;
+  margin: 25px 15px;
+}
+
+.register-btn {
+  background-color: #0967d2;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 25px 15px;
+}
+
+.registered {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  margin: 25px 15px;
+}
+
+.registered-desc {
+  color: #323f4b;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.registrations-closed {
+  width: 70%;
+  align-self: center;
+  max-width: 550px;
+  margin: 25px 15px;
+}
+
+.closed-head {
+  color: #323f4b;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.closed-desc {
+  color: #475569;
+  font-size: 20px;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  margin: 25px 15px;
+}
+
+.no-active-cont {
+  align-self: flex-start;
+  justify-content: center;
+}

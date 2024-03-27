@@ -1,0 +1,49 @@
+.event-item-card {
+  list-style-type: none;
+  margin: 10px;
+  width: 45%;
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+.img-btn {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-btn {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.location {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+}

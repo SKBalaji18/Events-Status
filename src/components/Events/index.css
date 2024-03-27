@@ -1,0 +1,30 @@
+.events-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.event-item-bg-container {
+  background-color: #64748b;
+  padding: 20px;
+  width: 60%;
+  flex-shrink: 1;
+  min-height: 100vh;
+}
+
+.event-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  width: 100%;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.event-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 32px;
+}
